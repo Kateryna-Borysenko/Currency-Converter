@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import { Container } from '../Container/Container';
 import PageHeading from '../PageHeading/PageHeading';
 import CurrencyInput from '../CurrencyInput/CurrencyInput';
+import Spinner from '../Spinner/Spinner';
 
 function App() {
   const [rates, setRates] = useState([]);
@@ -54,24 +55,27 @@ function App() {
   };
 
   return (
-    <Container>
-      <Header format={format} rates={rates} />
-      <PageHeading text="Currency Converter" />
-      <CurrencyInput
-        onAmountChange={handleAmount1Change}
-        onCurrencyChange={handleCurrency1Change}
-        currencies={Object.keys(rates)}
-        amount={amount1}
-        currency={currency1}
-      />
-      <CurrencyInput
-        onAmountChange={handleAmount2Change}
-        onCurrencyChange={handleCurrency2Change}
-        currencies={Object.keys(rates)}
-        amount={amount2}
-        currency={currency2}
-      />
-    </Container>
+    <>
+      {!!rates.length && <Spinner />}
+      <Container>
+        <Header format={format} rates={rates} />
+        <PageHeading text="Currency Converter" />
+        <CurrencyInput
+          onAmountChange={handleAmount1Change}
+          onCurrencyChange={handleCurrency1Change}
+          currencies={Object.keys(rates)}
+          amount={amount1}
+          currency={currency1}
+        />
+        <CurrencyInput
+          onAmountChange={handleAmount2Change}
+          onCurrencyChange={handleCurrency2Change}
+          currencies={Object.keys(rates)}
+          amount={amount2}
+          currency={currency2}
+        />
+      </Container>
+    </>
   );
 }
 
