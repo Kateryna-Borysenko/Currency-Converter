@@ -1,8 +1,8 @@
-### Currentcy Converter App with React / Hooks
+# Currentcy Converter App with React / Hooks
 
  <img src="./src/images/screen.png" width="900">
 
-# `Описание`
+## Описание
 
 - Header с курсом валют
   - В header-е необходимо отображать актуальный курс валют (USD, EUR) по
