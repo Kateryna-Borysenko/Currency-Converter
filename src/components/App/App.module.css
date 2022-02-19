@@ -1,0 +1,28 @@
+.wrap {
+  position: relative;
+  width: 1000px;
+  min-height: 313px;
+  border: 1px solid #fff;
+  border-radius: 30px 0px;
+  height: 370px;
+}
+
+.imageWrap {
+  position: absolute;
+  right: 33px;
+  top: -70px;
+  border: 1px solid #fff;
+  border-radius: 30px 0px;
+  width: 550px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  display: block;
+  border-radius: 30px 0px;
+  top: 45px;
+  right: 100px;
+  object-fit: cover;
+}

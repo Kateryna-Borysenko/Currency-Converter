@@ -1,0 +1,28 @@
+.wrap {
+  background: linear-gradient(
+    90deg,
+    rgba(101, 103, 104) 0%,
+    rgba(255, 255, 255) 100%
+  );
+  width: 250px;
+  display: flex;
+  border-radius: 30px 0px;
+  border: 2px solid #fff;
+  margin-top: 65px;
+  margin-left: 65px;
+}
+
+.input,
+.select {
+  background: none;
+  border: 0;
+  color: #000;
+  font-family: inherit;
+}
+
+.input {
+  padding: 17px 20px;
+  outline: none;
+  width: 150px;
+  background: transparent;
+}

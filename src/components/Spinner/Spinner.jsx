@@ -7,7 +7,7 @@ const Spinner = () => {
   return createPortal(
     <div className={s.spinner}>
       <Rings
-        color="#5f27fb"
+        color="#fff"
         height={150}
         width={150}
         ariaLabel="loading"

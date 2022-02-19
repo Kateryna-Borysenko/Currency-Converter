@@ -1,0 +1,9 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.currency {
+  font-weight: 600;
+}
