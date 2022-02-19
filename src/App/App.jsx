@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import './App.module.css';
 import getCurrency from '../services/api';
+import Header from '../Header/Header';
+import { Container } from '../Container/Container';
+
 function App() {
   const [rates, setRates] = useState([]);
 
@@ -10,12 +13,14 @@ function App() {
     });
   }, []);
 
+  const format = number => {
+    return number.toFixed(4);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>hello</p>
-      </header>
-    </div>
+    <Container>
+      <Header format={format} rates={rates} />
+    </Container>
   );
 }
 
