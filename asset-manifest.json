@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Kateryna-Borysenko/currency-converter/static/css/main.6b1e9bbd.css",
+    "main.js": "/Kateryna-Borysenko/currency-converter/static/js/main.ae8ad134.js",
+    "static/media/image.jpg": "/Kateryna-Borysenko/currency-converter/static/media/image.186c7da7009045fbeefe.jpg",
+    "index.html": "/Kateryna-Borysenko/currency-converter/index.html",
+    "main.6b1e9bbd.css.map": "/Kateryna-Borysenko/currency-converter/static/css/main.6b1e9bbd.css.map",
+    "main.ae8ad134.js.map": "/Kateryna-Borysenko/currency-converter/static/js/main.ae8ad134.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b1e9bbd.css",
+    "static/js/main.ae8ad134.js"
+  ]
+}
