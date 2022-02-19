@@ -2,8 +2,6 @@
 
  <img src="./src/images/screen.png" width="900">
 
-[Live Demo](https://kateryna-borysenko.github.io/currentcy-converter/)
-
 # `Описание`
 
 - Header с курсом валют
